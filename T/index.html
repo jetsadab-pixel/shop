@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>My Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Online Shop</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="order.html">Order</a>
+</nav>
+
+<div class="product">
+    <img src="https://plus.unsplash.com/premium_photo-1673356302067-aac3b545a362?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="เสื้อยืด">
+    <h3>เสื้อยืดแฟชั่น</h3>
+    <p>ราคา: 250 บาท</p>
+    <button onclick="addToCart('เสื้อยืดแฟชั่น',250)">สั่งซื้อ</button>
+</div>
+
+<div class="product">
+    <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="รองเท้า">
+    <h3>รองเท้าผ้าใบ</h3>
+    <p>ราคา: 890 บาท</p>
+    <button onclick="addToCart('รองเท้าผ้าใบ',890)">สั่งซื้อ</button>
+</div>
+
+<div class="product">
+    <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=457&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="กระเป๋า">
+    <h3>กระเป๋าแฟชั่น</h3>
+    <p>ราคา: 590 บาท</p>
+    <button onclick="addToCart('กระเป๋าแฟชั่น',590)">สั่งซื้อ</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
